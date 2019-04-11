@@ -13,7 +13,7 @@ CREATE TABLE products
 -- show datestyle
 -- SET datestyle = "ISO, DMY";
 
-COPY persons(product_id, product_date,product_location,product_onHandQty,product_unitcost,product_onHandValue) 
+COPY products(product_id, product_date,product_location,product_onHandQty,product_unitcost,product_onHandValue) 
 FROM 'D:\Projects\opex\zip files\Daily Inventory.csv' DELIMITER ',' CSV HEADER;
 
 
